@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-24T12:11:43.009Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="20.6.0" etag="0e7jhG6lhzqo_Ccf85nB" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-24T12:22:08.542Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="20.6.0" etag="M-8MvQ39vLlZToAnpVL5" type="github">
   <diagram id="GX97laBKljAhxgyalebP" name="Page-1">
     <mxGraphModel dx="1113" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -160,7 +160,7 @@
         </mxCell>
         <UserObject label="Müşteri Ekleme" lucidchartObjectId="i0s.TDTxCB0v" id="jsp2VWqsweCaP6Wb34ue-22">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;rounded=1;arcSize=50;fontSize=8.3;fontColor=#3a414a;spacing=3.8;strokeColor=#3a414a;strokeOpacity=100;strokeWidth=0.8;" vertex="1" parent="1">
-            <mxGeometry x="590" y="657" width="61" height="31" as="geometry" />
+            <mxGeometry x="355" y="626" width="61" height="31" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="jsp2VWqsweCaP6Wb34ue-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jsp2VWqsweCaP6Wb34ue-23" target="jsp2VWqsweCaP6Wb34ue-1">
@@ -168,7 +168,7 @@
         </mxCell>
         <UserObject label="Müşteri Düzenleme" lucidchartObjectId="z0s.LFrxyv2f" id="jsp2VWqsweCaP6Wb34ue-23">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;rounded=1;arcSize=50;fontSize=8.3;fontColor=#3a414a;spacing=3.8;strokeColor=#3a414a;strokeOpacity=100;strokeWidth=0.8;" vertex="1" parent="1">
-            <mxGeometry x="590" y="693" width="61" height="31" as="geometry" />
+            <mxGeometry x="355" y="662" width="61" height="31" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="jsp2VWqsweCaP6Wb34ue-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jsp2VWqsweCaP6Wb34ue-24" target="jsp2VWqsweCaP6Wb34ue-1">
@@ -176,7 +176,7 @@
         </mxCell>
         <UserObject label="Müşteri Silme" lucidchartObjectId="M0s.lD5n58F~" id="jsp2VWqsweCaP6Wb34ue-24">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;rounded=1;arcSize=50;fontSize=8.3;fontColor=#3a414a;spacing=3.8;strokeColor=#3a414a;strokeOpacity=100;strokeWidth=0.8;" vertex="1" parent="1">
-            <mxGeometry x="590" y="731" width="61" height="31" as="geometry" />
+            <mxGeometry x="355" y="700" width="61" height="31" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="jsp2VWqsweCaP6Wb34ue-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jsp2VWqsweCaP6Wb34ue-25" target="jsp2VWqsweCaP6Wb34ue-1">
@@ -184,12 +184,15 @@
         </mxCell>
         <UserObject label="Müşteri Arama" lucidchartObjectId="70s.dFlyOoFN" id="jsp2VWqsweCaP6Wb34ue-25">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;rounded=1;arcSize=50;fontSize=8.3;fontColor=#3a414a;spacing=3.8;strokeColor=#3a414a;strokeOpacity=100;strokeWidth=0.8;" vertex="1" parent="1">
-            <mxGeometry x="590" y="770" width="61" height="31" as="geometry" />
+            <mxGeometry x="355" y="739" width="61" height="31" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="jsp2VWqsweCaP6Wb34ue-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jsp2VWqsweCaP6Wb34ue-26" target="jsp2VWqsweCaP6Wb34ue-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Giriş - Çıkış" lucidchartObjectId="0Zs.tnArjqmo" id="jsp2VWqsweCaP6Wb34ue-26">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;rounded=1;arcSize=50;fontSize=8.3;fontColor=#3a414a;spacing=3.8;strokeColor=#3a414a;strokeOpacity=100;strokeWidth=0.8;" vertex="1" parent="1">
-            <mxGeometry x="50" y="900" width="61" height="31" as="geometry" />
+            <mxGeometry x="234.5" y="780" width="61" height="31" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="jsp2VWqsweCaP6Wb34ue-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jsp2VWqsweCaP6Wb34ue-109" target="jsp2VWqsweCaP6Wb34ue-1">
@@ -262,22 +265,22 @@
         </UserObject>
         <UserObject label="Cihaz Ekleme" lucidchartObjectId="d1s.QiXtfND0" id="jsp2VWqsweCaP6Wb34ue-104">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;rounded=1;arcSize=50;fontSize=8.3;fontColor=#3a414a;spacing=3.8;strokeColor=#3a414a;strokeOpacity=100;strokeWidth=0.8;" vertex="1" parent="1">
-            <mxGeometry x="590" y="437" width="61" height="31" as="geometry" />
+            <mxGeometry x="355" y="437" width="61" height="31" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Cihaz Silme" lucidchartObjectId="N3s.tND~ThNB" id="jsp2VWqsweCaP6Wb34ue-105">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;rounded=1;arcSize=50;fontSize=8.3;fontColor=#3a414a;spacing=3.8;strokeColor=#3a414a;strokeOpacity=100;strokeWidth=0.8;" vertex="1" parent="1">
-            <mxGeometry x="590" y="472" width="61" height="31" as="geometry" />
+            <mxGeometry x="355" y="472" width="61" height="31" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Cihaz Silme" lucidchartObjectId="U3s.0Qj-5Mvt" id="jsp2VWqsweCaP6Wb34ue-106">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;rounded=1;arcSize=50;fontSize=8.3;fontColor=#3a414a;spacing=3.8;strokeColor=#3a414a;strokeOpacity=100;strokeWidth=0.8;" vertex="1" parent="1">
-            <mxGeometry x="590" y="507" width="61" height="31" as="geometry" />
+            <mxGeometry x="355" y="507" width="61" height="31" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Cihaz İşlem Durumu Güncelleme" lucidchartObjectId="t4s.c9_w_xju" id="jsp2VWqsweCaP6Wb34ue-107">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;rounded=1;arcSize=50;fontSize=8.3;fontColor=#3a414a;spacing=3.8;strokeColor=#3a414a;strokeOpacity=100;strokeWidth=0.8;" vertex="1" parent="1">
-            <mxGeometry x="590" y="544" width="61" height="35" as="geometry" />
+            <mxGeometry x="355" y="544" width="61" height="35" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="jsp2VWqsweCaP6Wb34ue-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jsp2VWqsweCaP6Wb34ue-108" target="jsp2VWqsweCaP6Wb34ue-1">
@@ -285,7 +288,7 @@
         </mxCell>
         <UserObject label="Cihaz Arama" lucidchartObjectId="a5s.o8t2odPd" id="jsp2VWqsweCaP6Wb34ue-108">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;rounded=1;arcSize=50;fontSize=8.3;fontColor=#3a414a;spacing=3.8;strokeColor=#3a414a;strokeOpacity=100;strokeWidth=0.8;" vertex="1" parent="1">
-            <mxGeometry x="590" y="584" width="61" height="31" as="geometry" />
+            <mxGeometry x="355" y="584" width="61" height="31" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Stok Girişi" lucidchartObjectId="Kat.Uqt6mMRg" id="jsp2VWqsweCaP6Wb34ue-109">
