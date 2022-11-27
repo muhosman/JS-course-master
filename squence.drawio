@@ -1,1 +1,587 @@
-<mxfile host="app.diagrams.net" modified="2022-11-26T11:24:01.774Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="xeC_eby7oNBydMMnvvZz" version="20.6.0" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-27T15:04:50.923Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" etag="4k74GTdi8RZ3xmQC8Zis" version="20.6.0" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="788" dy="1638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-134" value="Delete firm" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="660" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-133" value="Edit firm" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-160" width="660" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-132" value="Search Firms" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;width=40;height=40;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-350" width="660" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-135" value="Manage Firm Sequence" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-430" width="720" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-189" value="Login" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-1070" width="780" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Login Page" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="125" y="-1050" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="45" y="70" width="10" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="Enter  ID and password" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" parent="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="100" as="sourcePoint" />
+            <mxPoint x="335" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="Web Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="420" y="-1050" width="100" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-144" value="Request User" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.2;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=8;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" target="zucG0PeZeZCj6K6YwV2G-156">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="111.29999999999995" as="sourcePoint" />
+            <mxPoint x="280" y="111" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-154" value="Enter mail" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-80" y="329.5799999999999" as="sourcePoint" />
+            <mxPoint x="40" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-164" value="Create random &#xa;password&#xa;and &#xa;request sending mail" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="-0.0769" y="-20" relative="1" as="geometry">
+            <mxPoint x="60" y="340" as="sourcePoint" />
+            <mxPoint x="190" y="340" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-26" value="else" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-850" width="40" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-74" value="Firms Page" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-400" width="100" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-75" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="zucG0PeZeZCj6K6YwV2G-74">
+          <mxGeometry x="45" y="70" width="10" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-104" value="List firms" style="endArrow=classic;html=1;rounded=0;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="190" as="sourcePoint" />
+            <mxPoint x="-50" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-120" value="Redirect" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="359.31" as="sourcePoint" />
+            <mxPoint x="60" y="359.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-121" value="Click firm delete button" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="460" as="sourcePoint" />
+            <mxPoint x="40" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-124" value="List firms" style="endArrow=classic;html=1;rounded=0;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="369.31" as="sourcePoint" />
+            <mxPoint x="-50" y="369.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-130" value="List firms" style="endArrow=classic;html=1;rounded=0;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="570" as="sourcePoint" />
+            <mxPoint x="-50" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-80" value="Web Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="470" y="-400" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-81" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="zucG0PeZeZCj6K6YwV2G-80">
+          <mxGeometry x="45" y="60" width="10" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-113" value="Change detail of firm &#xa;click save button" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70.93" y="299.79" as="sourcePoint" />
+            <mxPoint x="40" y="299.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-119" value="Succesfull Message" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="349.31" as="sourcePoint" />
+            <mxPoint x="-70" y="349.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-126" value="Respond changed firm" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="510" as="sourcePoint" />
+            <mxPoint x="60" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-82" value="Enter finding firms detail" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="-320" as="sourcePoint" />
+            <mxPoint x="510" y="-320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-76" value="Firms List" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry x="-0.1111" y="10" relative="1" as="geometry">
+            <mxPoint x="140" y="-320" as="sourcePoint" />
+            <mxPoint x="230" y="-320" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-87" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-400" width="100" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-88" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="zucG0PeZeZCj6K6YwV2G-87">
+          <mxGeometry x="45" y="70" width="10" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-95" value="Respond null" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="170" as="sourcePoint" />
+            <mxPoint x="-80" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-89" value="Requesting firms" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="-309.9999999999999" as="sourcePoint" />
+            <mxPoint x="650" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-94" value="Respond firms list" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="-270" as="sourcePoint" />
+            <mxPoint x="530" y="-270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-98" value="Firms Edit Page" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-400" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-100" value="Return firm list" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="130" as="sourcePoint" />
+            <mxPoint x="-80" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-111" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="zucG0PeZeZCj6K6YwV2G-98">
+          <mxGeometry x="45" y="279.31" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-102" value="Return null" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="-230" as="sourcePoint" />
+            <mxPoint x="260" y="-230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-105" value="if firms founded" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;width=70;height=20;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-300" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-107" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=8;" edge="1" parent="1" target="zucG0PeZeZCj6K6YwV2G-105">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="-255" as="sourcePoint" />
+            <mxPoint x="670" y="-255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-108" value="else" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-255" width="30" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-109" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=8;entryX=1;entryY=0.494;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="zucG0PeZeZCj6K6YwV2G-105">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="-255.57000000000005" as="sourcePoint" />
+            <mxPoint x="320" y="-255.57000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-112" value="" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="-110.69000000000005" as="sourcePoint" />
+            <mxPoint x="380" y="-110.69000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-309" value="Click firm edit button" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="zucG0PeZeZCj6K6YwV2G-112">
+          <mxGeometry x="-0.1615" y="-1" relative="1" as="geometry">
+            <mxPoint x="6" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-114" value="Request to change firm" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="-90.21000000000004" as="sourcePoint" />
+            <mxPoint x="650" y="-90.69000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-117" value="Respond changed firm" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="-60.690000000000055" as="sourcePoint" />
+            <mxPoint x="530" y="-60.690000000000055" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-122" value="Onclick delete button" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="70" as="sourcePoint" />
+            <mxPoint x="510" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-123" value="Request to delete firm" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="80" as="sourcePoint" />
+            <mxPoint x="650" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-129" value="Succesfull Message" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="140" as="sourcePoint" />
+            <mxPoint x="250" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-28" value="Logged In" style="endArrow=classic;html=1;rounded=0;fontSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="-890" as="sourcePoint" />
+            <mxPoint x="85" y="-890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-3" value="User Invalid" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint x="185" y="-830" as="targetPoint" />
+            <mxPoint x="460" y="-830" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="265" y="-830" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-23" value="User Invalid" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint x="185" y="-890" as="targetPoint" />
+            <mxPoint x="460" y="-890" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="265" y="-890" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="465" y="-980" width="10" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-29" value="Eject User" style="endArrow=classic;html=1;rounded=0;fontSize=8;" edge="1" parent="1">
+          <mxGeometry x="-0.0906" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="-830" as="sourcePoint" />
+            <mxPoint x="85" y="-829.5699999999999" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-141" value="Forget Page" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-1050" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-151" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="zucG0PeZeZCj6K6YwV2G-141">
+          <mxGeometry x="45" y="290" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-143" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-1050" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-22" value="if user is valid" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;width=60;height=20;" vertex="1" parent="zucG0PeZeZCj6K6YwV2G-143">
+          <mxGeometry x="-650" y="130" width="730" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-156" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="zucG0PeZeZCj6K6YwV2G-143">
+          <mxGeometry x="45" y="90" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=8;entryX=1.005;entryY=0.545;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.003;exitY=0.539;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-143" source="zucG0PeZeZCj6K6YwV2G-22" target="zucG0PeZeZCj6K6YwV2G-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-623.71" y="150" as="sourcePoint" />
+            <mxPoint x="-453.71" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-168" value="If mail is valid" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="zucG0PeZeZCj6K6YwV2G-143">
+          <mxGeometry x="-460" y="360" width="540" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-177" value="Request change&#xa;user password" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-143">
+          <mxGeometry y="-10" relative="1" as="geometry">
+            <mxPoint x="-90" y="380" as="sourcePoint" />
+            <mxPoint x="40" y="380" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-171" value="Valid mail" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-143">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint x="-380" y="420" as="targetPoint" />
+            <mxPoint x="-260" y="420" as="sourcePoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-169" value="The password &#xa;is sended" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-143">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint x="-235" y="450" as="targetPoint" />
+            <mxPoint x="-110" y="450" as="sourcePoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-180" value="Request sending mail" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-143">
+          <mxGeometry x="-0.0769" relative="1" as="geometry">
+            <mxPoint x="-240" y="430" as="sourcePoint" />
+            <mxPoint x="-110" y="430" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-183" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=8;entryX=1;entryY=0.553;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.002;exitY=0.553;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-143" source="zucG0PeZeZCj6K6YwV2G-168" target="zucG0PeZeZCj6K6YwV2G-168">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-660" y="470" as="sourcePoint" />
+            <mxPoint x="75.84000000000015" y="470.6600000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-188" value="else" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="zucG0PeZeZCj6K6YwV2G-143">
+          <mxGeometry x="-460" y="470" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-172" value="Invalid mail" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-143">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-380" y="520" as="targetPoint" />
+            <mxPoint x="-260" y="520" as="sourcePoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-147" value="Respond User" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint x="490" y="-890.42" as="targetPoint" />
+            <mxPoint x="760" y="-890" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="570" y="-890.42" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-149" value="Respond Null" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint x="490" y="-830.42" as="targetPoint" />
+            <mxPoint x="760" y="-830" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="570" y="-830.42" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="Login " style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontSize=8;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="-960" as="sourcePoint" />
+            <mxPoint x="170" y="-960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="-960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-153" value="Click forget password" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="-730.42" as="sourcePoint" />
+            <mxPoint x="320" y="-730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-163" value="Mail API" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-1050" width="100" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-165" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="zucG0PeZeZCj6K6YwV2G-163">
+          <mxGeometry x="45" y="420" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-178" value="Respond changed user" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint x="480" y="-650" as="targetPoint" />
+            <mxPoint x="755" y="-650" as="sourcePoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-182" value="Respond null" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry x="-0.0182" y="1" relative="1" as="geometry">
+            <mxPoint x="480" y="-540" as="targetPoint" />
+            <mxPoint x="755" y="-540" as="sourcePoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-270" value="Edit firm" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="660" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-271" value="Search Firms" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;width=40;height=40;" vertex="1" parent="1">
+          <mxGeometry x="80" y="330" width="660" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-272" value="Manage Firm Sequence" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="50" y="250" width="720" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-273" value="Firms Page" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="100" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-274" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="zucG0PeZeZCj6K6YwV2G-273">
+          <mxGeometry x="45" y="70" width="10" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-275" value="List firms" style="endArrow=classic;html=1;rounded=0;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-273">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="190" as="sourcePoint" />
+            <mxPoint x="-50" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-276" value="Click firm edit button" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-273">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="279.31" as="sourcePoint" />
+            <mxPoint x="40" y="279.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-277" value="Redirect" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-273">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="359.31" as="sourcePoint" />
+            <mxPoint x="60" y="359.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-278" value="Click firm delete button" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-273">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="460" as="sourcePoint" />
+            <mxPoint x="40" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-279" value="List firms" style="endArrow=classic;html=1;rounded=0;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-273">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="369.31" as="sourcePoint" />
+            <mxPoint x="-50" y="369.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-280" value="List firms" style="endArrow=classic;html=1;rounded=0;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-273">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="570" as="sourcePoint" />
+            <mxPoint x="-50" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-281" value="Web Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="470" y="280" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-282" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="zucG0PeZeZCj6K6YwV2G-281">
+          <mxGeometry x="45" y="60" width="10" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-283" value="Send firm input" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-281">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70.93" y="299.79" as="sourcePoint" />
+            <mxPoint x="40" y="299.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-284" value="Succesfull Message" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-281">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="349.31" as="sourcePoint" />
+            <mxPoint x="-70" y="349.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-285" value="Respond changed firm" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-281">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="510" as="sourcePoint" />
+            <mxPoint x="60" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-286" value="Enter finding firms detail" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="360" as="sourcePoint" />
+            <mxPoint x="510" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-287" value="Firms List" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry x="-0.1111" y="10" relative="1" as="geometry">
+            <mxPoint x="140" y="360" as="sourcePoint" />
+            <mxPoint x="230" y="360" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-288" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="610" y="280" width="100" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-289" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="zucG0PeZeZCj6K6YwV2G-288">
+          <mxGeometry x="45" y="70" width="10" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-290" value="Respond null" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-288">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="170" as="sourcePoint" />
+            <mxPoint x="-80" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-291" value="Requesting firms" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="370" as="sourcePoint" />
+            <mxPoint x="650" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-292" value="Respond firms list" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="410" as="sourcePoint" />
+            <mxPoint x="530" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-293" value="Firms Edit Page" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-294" value="Return firm list" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="zucG0PeZeZCj6K6YwV2G-293">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="130" as="sourcePoint" />
+            <mxPoint x="-80" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-295" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fontSize=8;" vertex="1" parent="zucG0PeZeZCj6K6YwV2G-293">
+          <mxGeometry x="45" y="279.31" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-296" value="Return null" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="450" as="sourcePoint" />
+            <mxPoint x="260" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-297" value="if firms founded" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;width=70;height=20;" vertex="1" parent="1">
+          <mxGeometry x="250" y="380" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-298" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=8;" edge="1" parent="1" target="zucG0PeZeZCj6K6YwV2G-297">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="425" as="sourcePoint" />
+            <mxPoint x="670" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-299" value="else" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="250" y="425" width="30" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-300" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=8;entryX=1;entryY=0.494;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="zucG0PeZeZCj6K6YwV2G-297">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="424.42999999999984" as="sourcePoint" />
+            <mxPoint x="320" y="424.42999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-301" value="Change detail of firm &#xa;click save button" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="569.31" as="sourcePoint" />
+            <mxPoint x="380" y="569.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-302" value="Request to change firm" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="589.79" as="sourcePoint" />
+            <mxPoint x="650" y="589.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-303" value="Respond changed firm" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="619.31" as="sourcePoint" />
+            <mxPoint x="530" y="619.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-304" value="Request delete firm" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="750" as="sourcePoint" />
+            <mxPoint x="510" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-305" value="Request delete firm" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="760" as="sourcePoint" />
+            <mxPoint x="650" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-306" value="Succesfull Message" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="820" as="sourcePoint" />
+            <mxPoint x="250" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zucG0PeZeZCj6K6YwV2G-307" value="Delete firm" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="710" width="660" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
