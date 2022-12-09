@@ -30,7 +30,7 @@ const account1 = {
 };
 
 const account2 = {
-  owner: "Jessica Davis",
+  owner: "Jessica Davis",ll
   movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
   interestRate: 1.5,
   pin: 2222,
@@ -97,7 +97,6 @@ const displayMovements = function (movements, sort = false) {
         <div class="movements__value">${mov.toFixed(2)}€</div>
       </div>
     `;
-
     containerMovements.insertAdjacentHTML("afterbegin", html);
   });
 };
@@ -116,7 +115,7 @@ const calcDisplaySummary = function (acc) {
   const out = acc.movements
     .filter((mov) => mov < 0)
     .reduce((acc, mov) => acc + mov, 0);
-  labelSumOut.textContent = `${Math.abs(out)}€`;
+  labelSumOut.textContent = `${Math.abs(out)}€`;}
 
   const interest = acc.movements
     .filter((mov) => mov > 0)

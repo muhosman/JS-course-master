@@ -12,8 +12,6 @@ console.log(23);
 let firstName = "Matilda";
 
 console.log(firstName);
-console.log(firstName);
-console.log(firstName);
 
 // Variable name conventions
 let jonas_matilda = "JM";
@@ -40,7 +38,7 @@ console.log(typeof javascriptIsFun);
 // console.log(typeof 23);
 // console.log(typeof 'Jonas');
 
-javascriptIsFun = 'YES!';
+javascriptIsFun = "YES!";
 console.log(typeof javascriptIsFun);
 
 let year;
@@ -61,12 +59,11 @@ const birthYear = 1991;
 // birthYear = 1990;
 // const job;
 
-var job = 'programmer';
-job = 'teacher'
+var job = "programmer";
+job = "teacher";
 
-lastName = 'Schmedtmann';
+lastName = "Schmedtmann";
 console.log(lastName);
-
 ////////////////////////////////////
 // Basic Operators
 // Math operators
@@ -81,6 +78,7 @@ console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
 const firstName = 'Jonas';
 const lastName = 'Schmedtmann';
 console.log(firstName + ' ' + lastName);
+
 
 // Assignment operators
 let x = 10 + 5; // 15
