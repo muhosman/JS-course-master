@@ -30,7 +30,7 @@ const account1 = {
 };
 
 const account2 = {
-  owner: "Jessica Davis",ll
+  owner: "Jessica Davis",
   movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
   interestRate: 1.5,
   pin: 2222,
@@ -115,7 +115,7 @@ const calcDisplaySummary = function (acc) {
   const out = acc.movements
     .filter((mov) => mov < 0)
     .reduce((acc, mov) => acc + mov, 0);
-  labelSumOut.textContent = `${Math.abs(out)}€`;}
+  labelSumOut.textContent = `${Math.abs(out)}€`;
 
   const interest = acc.movements
     .filter((mov) => mov > 0)
